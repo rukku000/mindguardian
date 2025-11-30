@@ -110,7 +110,7 @@ class SentinelAgent:
             return {"type": "BurnoutAlert", "severity": "HIGH", "suggested_action": "replan"}
 ```
 
-**GitHub Repo**: https://github.com/rukku000/mindguardian [Public, README w/ setup + diagrams]
+**GitHub Repo**: https://github.com/rukku000/mindguardian.git [Public, README w/ setup + diagrams]
 
 **Deployment**: Dockerized for Vertex AI Agent Engine—`gcloud run deploy mindguardian --image gcr.io/project/mindguardian`. Bonus points documentation included.
 
@@ -123,4 +123,5 @@ class SentinelAgent:
 5. **Research Validation**: Longitudinal study partnering with universities to measure GPA/mood impact
 
 MindGuardian demonstrates agents' power to solve real human problems through coordinated intelligence, memory, and adaptation. Students deserve AI companions that protect their most valuable resource: mental energy.
+
 ```
